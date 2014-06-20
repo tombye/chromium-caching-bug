@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Blink caching bug | Step 1</title>
+  </head>
+  <body>
+    <form action="step-2" method="GET">
+      <h1>What are the best pets, cats or dogs?</h1>
+      <fieldset>
+        <label for="cats">
+          Cats
+          <input type="radio" name="pet" id="cats" value="cats" {{{cats}}} />
+        </label>
+        <label for="dogs">
+          Dogs
+          <input type="radio" name="pet" id="dogs" value="dogs" {{{dogs}}} />
+        </label>
+      </fieldset>
+      <input type="submit" value="Continue" />
+    </form>
+  </body>
+</html>

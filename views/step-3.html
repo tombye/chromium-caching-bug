@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Blink caching bug | Step 3</title>
+  </head>
+  <body>
+    <form action="step-4" method="GET">
+      <h1>Heads or tails?</h1>
+      <fieldset>
+        <label for="heads">
+          Heads
+          <input type="radio" name="sideOfCoin" id="heads" value="heads" {{{heads}}} />
+        </label>
+        <label for="tails">
+          Tails
+          <input type="radio" name="sideOfCoin" id="tails" value="tails" {{{tails}}} />
+        </label>
+      </fieldset>
+      <input type="submit" value="Continue" />
+    </form>
+  </body>
+</html>

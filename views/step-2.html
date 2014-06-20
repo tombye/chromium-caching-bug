@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Blink caching bug | Step 2</title>
+  </head>
+  <body>
+    <form action="step-3" method="GET">
+      <h1>Is the glass half full or half empty?</h1>
+      <fieldset>
+        <label for="halfFull">
+          Half full 
+          <input type="radio" name="glassState" id="halfFull" value="halfFull" {{{halfFull}}} />
+        </label>
+        <label for="halfEmpty">
+          Half empty 
+          <input type="radio" name="glassState" id="halfEmpty" value="halfEmpty" {{{halfEmpty}}} />
+        </label>
+      </fieldset>
+      <input type="submit" value="Continue" />
+    </form>
+  </body>
+</html>

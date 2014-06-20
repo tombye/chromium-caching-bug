@@ -1,0 +1,10 @@
+{
+  "name": "blink-caching-bug-test",
+  "description": "Test case for Blink bug with recognition of HTML attributes when coming out of cache",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "hogan-express": "0.5.2"
+  }
+}
