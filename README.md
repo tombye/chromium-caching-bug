@@ -1,5 +1,9 @@
 #Chromium caching issue
 
+##Set up
+
+Run `npm install`.
+
 ##Steps to recreate
 
 - Start server using `node server.js`
